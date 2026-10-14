@@ -1,0 +1,19 @@
+{
+  "name": "belburge-backend",
+  "version": "1.0.0",
+  "description": "Real backend + database for the Belburge CRM container tracker (auth, shared data, live sync over WebSocket).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.5",
+    "ws": "^8.17.0"
+  }
+}
